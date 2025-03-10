@@ -52,12 +52,5 @@ The program must:
 | Plants      | Int        |        | 0 - 20         | # plants in plot      |
 | Max height  | Decimal    | cm     | 0 - 1000       | Ht of tallest plant   |
 | Min height  | Decimal    | cm     | 0 - 1000       | Ht of shortest plant  |
-| Median      | Decimal    | cm     | 0 - 1000       | Median ht of plants   |
+| Median height| Decimal    | cm     | 0 - 1000       | Median ht of plants   |
 | Notes       | String     |        |                | Miscellaneous notes   |
-|Min height  |Decimal   |cm    | 0 - 1000     |Ht of shortest plant |\
-+------------+----------+------+--------------+---------------------+\
-|Median      |Decimal   |cm    | 0 - 1000     |Median ht of plants  |\
-|height      |          |      |              |                     |\
-+------------+----------+------+--------------+---------------------+\
-|Notes       |String    |      |              |Miscellaneous notes  |\
-+------------+----------+------+--------------+---------------------+\
