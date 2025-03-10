@@ -34,38 +34,26 @@ The program must:
 - Run on debian LINUX.
 - Run acceptably on a low-end PC.
 
-+------------+----------+------+--------------+---------------------+\
-|Field       | Datatype | Units| Range        |Descripton           |\
-+============+==========+======+==============+=====================+\
-|Date        |Date      |      |              |Date of record       |\
-+------------+----------+------+--------------+---------------------+\
-|Time        |Time      |      |8, 12, 16, 20 |Time period          |\
-+------------+----------+------+--------------+---------------------+\
-|Lab         |String    |      | A - E        |Lab ID               |\
-+------------+----------+------+--------------+---------------------+\
-|Technician  |String    |      |              |Technician name      |\
-+------------+----------+------+--------------+---------------------+\
-|Plot        |Int       |      | 1 - 20       |Plot ID              |\
-+------------+----------+------+--------------+---------------------+\
-|Seed        |String    |      |              |Seed sample ID       |\
-|sample      |          |      |              |                     |\
-+------------+----------+------+--------------+---------------------+\
-|Fault       |Bool      |      |              |Fault on sensor      |\
-+------------+----------+------+--------------+---------------------+\
-|Light       |Decimal   |klx   | 0 - 100      |Light at plot        |\
-+------------+----------+------+--------------+---------------------+\
-|Humidity    |Decimal   |g/m³  | 0.5 - 52.0   |Abs humidity at plot |\
-+------------+----------+------+--------------+---------------------+\
-|Temperature |Decimal   |°C    | 4 - 40       |Temperature at plot  |\
-+------------+----------+------+--------------+---------------------+\
-|Blossoms    |Int       |      | 0 - 1000     |# blossoms in plot   |\
-+------------+----------+------+--------------+---------------------+\
-|Fruit       |Int       |      | 0 - 1000     |# fruits in plot     |\
-+------------+----------+------+--------------+---------------------+\
-|Plants      |Int       |      | 0 - 20       |# plants in plot     |\
-+------------+----------+------+--------------+---------------------+\
-|Max height  |Decimal   |cm    | 0 - 1000     |Ht of tallest plant  |\
-+------------+----------+------+--------------+---------------------+\
+
+| Field       | Datatype   | Units  | Range          | Descripton            |
+|-------------|------------|--------|----------------|-----------------------|
+| Date        | Date       |        |                | Date of record        |
+| Time        | Time       |        | 8, 12, 16, 20  | Time period           |
+| Lab         | String     |        | A - E          | Lab ID                |
+| Technician  | String     |        |                | Technician name       |
+| Plot        | Int        |        | 1 - 20         | Plot ID               |
+| Seed sample | String     |        |                | Seed sample ID        |
+| Fault       | Bool       |        |                | Fault on sensor       |
+| Light       | Decimal    | klx    | 0 - 100        | Light at plot         |
+| Humidity    | Decimal    | g/m³   | 0.5 - 52.0     | Abs humidity at plot  |
+| Temperature | Decimal    | °C     | 4 - 40         | Temperature at plot   |
+| Blossoms    | Int        |        | 0 - 1000       | # blossoms in plot    |
+| Fruit       | Int        |        | 0 - 1000       | # fruits in plot      |
+| Plants      | Int        |        | 0 - 20         | # plants in plot      |
+| Max height  | Decimal    | cm     | 0 - 1000       | Ht of tallest plant   |
+| Min height  | Decimal    | cm     | 0 - 1000       | Ht of shortest plant  |
+| Median      | Decimal    | cm     | 0 - 1000       | Median ht of plants   |
+| Notes       | String     |        |                | Miscellaneous notes   |
 |Min height  |Decimal   |cm    | 0 - 1000     |Ht of shortest plant |\
 +------------+----------+------+--------------+---------------------+\
 |Median      |Decimal   |cm    | 0 - 1000     |Median ht of plants  |\
